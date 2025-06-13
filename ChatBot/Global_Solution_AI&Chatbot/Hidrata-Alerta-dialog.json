@@ -1,0 +1,716 @@
+{
+  "intents": [
+    {
+      "intent": "desidratacao",
+      "examples": [
+        {
+          "text": "Como agir diante de um quadro de desidratação?"
+        },
+        {
+          "text": "Como evitar complicações causadas pela desidratação?"
+        },
+        {
+          "text": "Como lidar com a falta de hidratação no organismo?"
+        },
+        {
+          "text": "Como proceder quando alguém está desidratado?"
+        },
+        {
+          "text": "Como tratar a deficiência de líquidos no organismo?"
+        },
+        {
+          "text": "desidratação"
+        },
+        {
+          "text": "O que fazer em caso de desidratação?"
+        },
+        {
+          "text": "O que fazer para combater a desidratação?"
+        },
+        {
+          "text": "O que fazer para recuperar o equilíbrio hídrico do corpo?"
+        },
+        {
+          "text": "Quais ações ajudam a evitar complicações causadas pela desidratação?"
+        },
+        {
+          "text": "Quais ações ajudam a recuperar a hidratação do corpo?"
+        },
+        {
+          "text": "Quais cuidados são necessários para tratar a desidratação?"
+        },
+        {
+          "text": "Quais medidas tomar em caso de perda excessiva de líquidos?"
+        }
+      ],
+      "description": "O bot reconhecerá quando o usuário perguntar sobre o que fazer em casos de desidratação"
+    },
+    {
+      "intent": "ola",
+      "examples": [
+        {
+          "text": "boa"
+        },
+        {
+          "text": "e ai"
+        },
+        {
+          "text": "eai?"
+        },
+        {
+          "text": "eai bot"
+        },
+        {
+          "text": "oi"
+        },
+        {
+          "text": "oi chat"
+        },
+        {
+          "text": "oiii"
+        },
+        {
+          "text": "ola"
+        },
+        {
+          "text": "olá"
+        },
+        {
+          "text": "opa"
+        },
+        {
+          "text": "tudo bem?"
+        }
+      ],
+      "description": "O bot reconhecerá a intenção de iniciar uma conversa."
+    },
+    {
+      "intent": "onda_calor",
+      "examples": [
+        {
+          "text": "Como podemos definir uma onda de calor?"
+        },
+        {
+          "text": "Como se define uma onda de calor?"
+        },
+        {
+          "text": "Explique onda de calor"
+        },
+        {
+          "text": "onda"
+        },
+        {
+          "text": "onda de calor"
+        },
+        {
+          "text": "O que caracteriza uma onda de calor?"
+        },
+        {
+          "text": "O que configura um episódio de onda de calor?"
+        },
+        {
+          "text": "o que é uma onda de calor?"
+        },
+        {
+          "text": "O que exatamente é uma onda de calor?"
+        },
+        {
+          "text": "O que significa o termo \"onda de calor\"?"
+        },
+        {
+          "text": "Quais parâmetros usados para identificar uma onda de calor?"
+        },
+        {
+          "text": "Qual é a definição de onda de calor?"
+        },
+        {
+          "text": "Qual é o significado de onda de calor?"
+        }
+      ],
+      "description": "O bot reconhecerá a vontade do usuário de saber o que é uma onda de calor."
+    },
+    {
+      "intent": "prevencao_problemas",
+      "examples": [
+        {
+          "text": "Como crianças podem se proteger dos efeitos de calor extremo?"
+        },
+        {
+          "text": "Como idosos podem se proteger dos efeitos de calor extremo?"
+        },
+        {
+          "text": "Como prevenir problemas de saúde durante uma onda de calor?"
+        },
+        {
+          "text": "Como reduzir os impactos do calor intenso na saúde?"
+        },
+        {
+          "text": "Como se preparar para onda de calor?"
+        },
+        {
+          "text": "como se proteger contra onda de calor?"
+        },
+        {
+          "text": "Quais cuidados básicos devemos ter durante períodos de calor?"
+        },
+        {
+          "text": "Quais medidas ajudam a evitar problemas de saúde em uma onda de calor?"
+        },
+        {
+          "text": "Quais são as melhores formas de se proteger durantes uma onda de calor?"
+        },
+        {
+          "text": "Quais são os protocolos de prevenção em caso de onda de calor?"
+        },
+        {
+          "text": "Que preocupações crianças devem ter na onda de calor?"
+        },
+        {
+          "text": "Que preocupações idosos devem ter na onda de calor?"
+        }
+      ],
+      "description": "O bot reconhecerá quando o usuário perguntar sobre como previnir problemas de saúde durante uma onda de calor?"
+    },
+    {
+      "intent": "protecao",
+      "examples": [
+        {
+          "text": "Como cuidar da proteção dos mais vulneráveis?"
+        },
+        {
+          "text": "Como evitar perigos para crianças e idosos no calor?"
+        },
+        {
+          "text": "Como proteger"
+        },
+        {
+          "text": "Como proteger crianças em ondas de calor?"
+        },
+        {
+          "text": "Como proteger idosos em ondas de calor?"
+        },
+        {
+          "text": "O que fazer para proteger crianças e idosos em situações de risco no calor?"
+        },
+        {
+          "text": "O que pode ser feito para minimizar riscos para crianças e idosos?"
+        },
+        {
+          "text": "protecao"
+        },
+        {
+          "text": "Quais cuidados especiais para crianças em ondas de calor?"
+        },
+        {
+          "text": "Quais cuidados especiais para os idosos em ondas de calor?"
+        },
+        {
+          "text": "Quais cuidados são essenciais para a segurança dos mais jovens e dos mais velhos?"
+        },
+        {
+          "text": "Quais medidas ajudam a garantir o bem-estar de crianças e idosos em ondas de calor?"
+        },
+        {
+          "text": "Quais práticas ajudam a proteger crianças e idosos de ondas de calor extremo?"
+        },
+        {
+          "text": "Quais são as melhores formas de garantir a segurança de crianças e idosos em ondas de calor?"
+        }
+      ],
+      "description": "O bot reconhecerá quando o usuário perguntar sobre como proteger crianças e idosos."
+    },
+    {
+      "intent": "riscos",
+      "examples": [
+        {
+          "text": "Como o calor excessivo afeta a saúde das pessoas?"
+        },
+        {
+          "text": "O que pode causar danos à saúde?"
+        },
+        {
+          "text": "Quais as complicações de saúde são comuns em pessoas expostas ao calor?"
+        },
+        {
+          "text": "Quais condições podem comprometer a saúde?"
+        },
+        {
+          "text": "Quais fatores representam riscos à saúde?"
+        },
+        {
+          "text": "Quais os perigos do calor intenso para o ser humano?"
+        },
+        {
+          "text": "Quais os riscos do calor para idosos e crianças?"
+        },
+        {
+          "text": "Quais problemas de saúde o calor extremo pode causar?"
+        },
+        {
+          "text": "Quais são as principais ameaças à saúde humana?"
+        },
+        {
+          "text": "Quais são os maiores perigos para a saúde?"
+        },
+        {
+          "text": "Quais são os problemas de saúde mais preocupantes?"
+        },
+        {
+          "text": "Quais são os riscos mais comuns para pessoas expostas ao calor extremo?"
+        }
+      ],
+      "description": "O bot reconhecerá quando o usuário perguntar sobre os principais riscos à saúde"
+    },
+    {
+      "intent": "tchau",
+      "examples": [
+        {
+          "text": "blz"
+        },
+        {
+          "text": "e nois"
+        },
+        {
+          "text": "flw"
+        },
+        {
+          "text": "obrigada"
+        },
+        {
+          "text": "obrigado"
+        },
+        {
+          "text": "ok"
+        },
+        {
+          "text": "ta bom"
+        },
+        {
+          "text": "tchau"
+        },
+        {
+          "text": "tchauzinho"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "valeu"
+        },
+        {
+          "text": "vlw"
+        }
+      ],
+      "description": "O bot reconhecerá a intenção do usuário de dar tchau e responderá com carisma."
+    },
+    {
+      "intent": "vulneraveis",
+      "examples": [
+        {
+          "text": "Crianças podem ter complicações em ondas de calor?"
+        },
+        {
+          "text": "Idosos podem ter complicações em ondas de calor?"
+        },
+        {
+          "text": "Pessoas vulneráveis em uma onda de calor"
+        },
+        {
+          "text": "Quais grupos são mais afetados pela onda de calor?"
+        },
+        {
+          "text": "Quais grupos são mais afetados pelo calor extremo?"
+        },
+        {
+          "text": "Quais populções são mais sensíveis a altas temperaturas?"
+        },
+        {
+          "text": "Quem corre maior risco durante uma onda de calor?"
+        },
+        {
+          "text": "Quem mais sofre na onda de calor?"
+        },
+        {
+          "text": "Quem precisa de mais proteção em dias de calor extremo?"
+        },
+        {
+          "text": "Quem são os mais vulneráveis ao calor extremo?"
+        },
+        {
+          "text": "Quem tem maior risco de complicações no calor?"
+        },
+        {
+          "text": "vulneráveis ao calor extremo"
+        }
+      ],
+      "description": "O bot reconhecerá a vontade do usuário de saber quem são as pessoas mais vulneráveis ao calor extremo"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "desidatacao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "em casos de desidratação",
+          "synonyms": [
+            "caso",
+            "deficiência de líquidos no organismo",
+            "desidratação ",
+            "desidratar",
+            "perda excessiva de líquidos",
+            "recuperar hidratação",
+            "reverter a falta de hidratação",
+            "urgência"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "evento",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "onda de calor",
+          "synonyms": [
+            "aumento de temperatura",
+            "calor",
+            "calorão",
+            "exteremo",
+            "onda"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "populacao_vulneravel",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "vulneráveis ao calor extremo",
+          "synonyms": [
+            "bebês ",
+            "criança ",
+            "idosos",
+            "terceira idade",
+            "vulneráveis"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "problemas_saude",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "prevenir problemas de saúde",
+          "synonyms": [
+            "complicações",
+            "doença",
+            "mal estar",
+            "prevenção",
+            "prevenir ",
+            "problemas",
+            "saúde"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "protecao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "proteção de crianças e idosos",
+          "synonyms": [
+            "bem-estar de crianças e idodos",
+            "como proteger",
+            "como proteger criancas e idosos",
+            "protecao",
+            "risco",
+            "riscos",
+            "segurança de crianças e idosos",
+            "situações de risco"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "riscos_saude",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "risco à saúde",
+          "synonyms": [
+            "mal estar",
+            "passar mal",
+            "risco ",
+            "saúde ",
+            "sentir mal"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá, eu sou o Hidrata Alerta, estou aqui para responder perguntas sobre o cuidado que devemos ter diante dias muito quentes!! O que gostaria de saber?\n\nO que é uma onda de calor?\nQuem são os vulneráveis ao calor extremo?\nQuais são os principais riscos à saúde?\nComo prevenir problemas de saúde durante uma onda de calor?\nComo proteger crianças e idosos?\nO que fazer em caso de desidratação?\n\nCaso queira ou precise enviar áudios, ficarei feliz em responder :)"
+              },
+              {
+                "text": "Bem-vindo! Sou o Hidrata Alerta e estou pronto para responder suas dúvidas sobre como se cuidar nos dias mais quentes. Vamos juntos garantir que o calor não afete sua saúde!\n\nO que é uma onda de calor?\nQuem são os vulneráveis ao calor extremo?\nQuais são os principais riscos à saúde?\nComo prevenir problemas de saúde durante uma onda de calor?\nComo proteger crianças e idosos?\nO que fazer em caso de desidratação?\n\nCaso queira ou precise enviar áudios, ficarei feliz em responder :)\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_1_1748982908589",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Desidratação",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Reidratação imediata: Ofereça água ou bebidas isotônicas para repor os eletrólitos perdidos.\n\nEvite bebidas refrigerantes, café e álcool, eles podem piorar a desidratação, então é melhor evitá-los.\n\nRefresque o corpo: Se a desidratação for causada por calor extremo, leve a pessoa para um lugar fresco e sombreado. Aplicar panos úmidos ou usar ventilação pode ajudar.\n\nProcure ajuda médica: Se houver sinais graves, como confusão mental, pele seca e quente, batimentos cardíacos acelerados ou desmaio, é essencial buscar atendimento médico imediatamente."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_4_1748979820865"
+      },
+      "conditions": "#desidratacao && @desidatacao:(em casos de desidratação)",
+      "dialog_node": "node_1_1748982908589",
+      "previous_sibling": "node_4_1748982795981"
+    },
+    {
+      "type": "standard",
+      "title": "Zerar Contexto",
+      "dialog_node": "node_4_1748979820865",
+      "previous_sibling": "node_7_1748431986209",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Prevenção de problemas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "- Hidrate-se: Beba bastante água, mesmo sem sentir sede.\n- Evite exposição ao sol: Especialmente entre 10h e 16h.\n- Use roupas leves: Prefira tecidos como algodão.\n- Cuide da alimentação: Consuma frutas ricas em água, como melancia e melão."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#prevencao_problemas && @problemas_saude:(prevenir problemas de saúde)",
+      "dialog_node": "node_4_1748982667668",
+      "previous_sibling": "node_8_1748982563612"
+    },
+    {
+      "type": "standard",
+      "title": "Proteção",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "- Ofereça água frequentemente, pois eles podem não perceber a sede.\n- Evite atividades físicas intensas ao ar livre durante os horários mais quentes.\n- Mantenha ambientes frescos e ventilados."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#protecao && @protecao:(proteção de crianças e idosos)",
+      "dialog_node": "node_4_1748982795981",
+      "previous_sibling": "node_4_1748982667668"
+    },
+    {
+      "type": "standard",
+      "title": "Cumprimento Hidrata Alerta",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá, eu sou o Hidrata Alerta, estou aqui para responder perguntas sobre o cuidado que devemos ter diante dias muito quentes!! O que gostaria de saber?\n\nO que é uma onda de calor?\nQuem são os vulneráveis ao calor extremo?\nQuais são os principais riscos à saúde?\nComo prevenir problemas de saúde durante uma onda de calor?\nComo proteger crianças e idosos?\nO que fazer em caso de desidratação?\n\nCaso queira ou precise enviar áudios, ficarei feliz em responder :)"
+              },
+              {
+                "text": "Bem-vindo! Sou o Hidrata Alerta e estou pronto para responder suas dúvidas sobre como se cuidar nos dias mais quentes. Vamos juntos garantir que o calor não afete sua saúde!\n\nO que é uma onda de calor?\nQuem são os vulneráveis ao calor extremo?\nQuais são os principais riscos à saúde?\nComo prevenir problemas de saúde durante uma onda de calor?\nComo proteger crianças e idosos?\nO que fazer em caso de desidratação?\n\nCaso queira ou precise enviar áudios, ficarei feliz em responder :)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#ola",
+      "dialog_node": "node_7_1748431986209",
+      "previous_sibling": "node_7_1748978286664"
+    },
+    {
+      "type": "standard",
+      "title": "Onda de calor",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Uma onda de calor ocorre quando a temperatura fica acima do normal por vários dias consecutivos."
+              },
+              {
+                "text": "Uma onda de calor é um período prolongado de temperaturas extremamente altas, que ficam acima da média esperada para uma determinada região."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#onda_calor && @evento:(onda de calor)",
+      "dialog_node": "node_7_1748454221705",
+      "previous_sibling": "node_4_1748979820865"
+    },
+    {
+      "type": "standard",
+      "title": "Tchau",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Espero que tenha conseguido as respostas que procurava :) Se precisar de mais alguma coisa, pode me perguntar!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#tchau",
+      "dialog_node": "node_7_1748978286664",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Vulneráveis",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Idosos, bebês, crianças pequenas, mulheres grávidas e pessoas com doenças crônicas são mais suscetíveis aos efeitos do calor, tornando-os mais vulneráveis ao calor extremo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#vulneraveis && @populacao_vulneravel:(vulneráveis ao calor extremo)",
+      "dialog_node": "node_8_1748979813953",
+      "previous_sibling": "node_7_1748454221705"
+    },
+    {
+      "type": "standard",
+      "title": "Riscos à saúde ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O calor extremo pode causar desidratação, insolação, queda de pressão arterial, problemas cardiovasculares e até insuficiência renal."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#riscos && @riscos_saude:(risco à saúde)",
+      "dialog_node": "node_8_1748982563612",
+      "previous_sibling": "node_8_1748979813953"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores",
+      "use_connect_to_support_prompt": "Connect to support",
+      "single_answer_clarification_prompt": "Something else"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "language": "pt-br",
+  "description": "",
+  "name": "Hidrata Alerta-dialog"
+}

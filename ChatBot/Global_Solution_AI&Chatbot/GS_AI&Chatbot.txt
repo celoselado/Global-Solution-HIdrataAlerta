@@ -1,0 +1,36 @@
+Erik Naoki Miyasato - RM: 565771
+
+Gutemberg Rocha Silva - RM: 562267
+
+Marcelo Alexandre dos Santos - RM: 565465
+
+
+Credenciais dos serviços utilizados:
+
+HidrataAlertaBot 
+
+API Key:dO7muY1yCjQ59p-Ge-NewPiiNpQaWgAFR9iYvo548lgS
+URL: https://api.au-syd.assistant.watson.cloud.ibm.com/instances/65fb3875-2bfa-47cc-a01d-b14db66250d7
+Assistant ID: 4377b9d3-f620-4e25-993c-57612f1150db
+Token:7024483123:AAHJ6XXo0NBZYyCZmURt_1sensmNhUZ78Iw
+
+Telegram link: t.me/HidrataAlertaBot
+
+
+Speech to Text
+API Key: du--cJUFYWEePxmNfCTIbVQUZi2QFbOVHvSFpxwtHcdO
+URL: https://api.au-syd.speech-to-text.watson.cloud.ibm.com/instances/8a397ab4-7f67-4729-9e81-377f13a075e5
+
+Text to Speech
+API Key: DJ9Th5CwBgwPEgo-6j5frTLRVpBzEPSx_lHvpVlqfVrM 
+URL: https://api.au-syd.text-to-speech.watson.cloud.ibm.com/instances/a76ce438-f40a-4bac-9219-794051b1ad39
+
+
+
+link do vídeo privado no YouTube: https://youtu.be/JIwYhwaUgPg?si=vi7klUqL1oDTbT3h
+
+link da integração via webchat: https://web-chat.global.assistant.watson.appdomain.cloud/preview.html?region=au-syd&integrationID=731d34bb-2db9-484f-97c7-360c8c5f1b46&serviceInstanceID=65fb3875-2bfa-47cc-a01d-b14db66250d7
+
+
+
+
