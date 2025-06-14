@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/Header/water.png" type="image/png">
+    <link rel="stylesheet" href="../style/global.css">
+    <link rel="stylesheet" href="../style/nav.css">
+    <link rel="stylesheet" href="../style/footer.css">
+    <link rel="stylesheet" href="../style/contato.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Hidrata Alerta - Contato</title>
+
+    <script src="../script/nav.js" defer></script>
+    <script src="../script/contato.js" defer></script>
+    
+</head>
+<body>
+    <header id="mainHeader">
+        <nav aria-label="Navegação principal">
+            <ul>
+                <li><a href="../index.html" aria-label="Página inicial">Home</a></li>
+                <li><a href="../pages/solucao.html" aria-label="Página de solução">Solução</a></li>
+                <li><a href="../pages/faq.html" aria-label="Perguntas frequentes">Perguntas Frequentes</a></li>
+                <li><a href="#" aria-current="page" aria-label="Página de contato">Contato</a></li>
+                <li><a href="../pages/integrantes.html" aria-label="Conheça nossos integrantes">Integrantes</a></li>
+            </ul>
+        </nav>
+
+         <!-- Container para guarda os doi icones de abre e fecha o menu, só vão aparecer na tela tamamho mobile -->
+         <div id="container_icone_menu">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-times"></i>
+        </div>
+    </header>
+
+    <main aria-label="Conteúdo principal da solução Hidrata Alerta">
+        <section class="banner">
+            <h1>Hidrata Alerta - Contato </h1>
+        </section>
+
+        <section id="main-container">
+            <article id="left-container">
+                    <h2>Tem Alguma duvida?</h2>
+                    <p class="p-text-01">Olá!
+                        Estamos aqui para ajudar você. Caso tenha alguma dúvida, sugestão ou solicitação, por favor, deixe  
+                        sua mensagem. Nossa equipe entrará em contato o mais rápido possível.
+                    </p>
+                   
+                      <div class="tel">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>(11)****34**1</p>
+                      </div>
+                  
+            </article>
+
+
+            <form id="right-container">
+                <div id="double-container">
+
+                    <div class="input-group">
+                        <label for="primeiro_nome">Nome*</label>
+                        <input id="primeiro_nome" name="nome" type="text" placeholder="Nome">
+                    </div>
+
+                    <div class="input-group">
+                        <label for="sobre_nome">Sobrenome*</label>
+                        <input type="text" name="text" id="sobre_nome"  placeholder="Sobrenome" required>
+                    </div>
+
+                </div>
+            
+                <div class="input-group">
+                    <label for="email_id">Email*</label>
+                    <input type="email" name="email" id="email_id" placeholder="Email" required>
+                </div>
+            
+                <div class="input-group">
+                    <label for="tel_id">Telefone <span class="optional">(opcional)</span></label>
+                    <input type="tel" name="tel" id="tel_id" placeholder="Telefone">
+                </div>
+            
+                <div class="input-group">
+                    <label for="text_area_id">Mensagem*</label>
+                    <textarea id="text_area_id" name="text_area" rows="10" maxlength="1000" placeholder="Digite sua mensagem aqui" required></textarea>
+                </div>
+            
+                <button id="btn-enviar" type="submit" aria-label="Botão para enviar formulário de contato">Enviar</button>
+            </form>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Hidrata Alerta. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

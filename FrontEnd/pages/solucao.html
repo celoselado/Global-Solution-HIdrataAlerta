@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/Header/water.png" type="image/png">
+    <link rel="stylesheet" href="../style/global.css">
+    <link rel="stylesheet" href="../style/nav.css">
+    <link rel="stylesheet" href="../style/footer.css">
+    <link rel="stylesheet" href="../style/solucao.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <title>Hidrata Alerta - Solução</title>
+
+    <script src="../script/nav.js" defer></script>
+    <script src="../script/solucao.js" defer></script>
+</head>
+<body>
+    <header id="mainHeader">
+        <nav aria-label="Navegação principal">
+            <ul>
+                <li><a href="../index.html" aria-label="Página inicial">Home</a></li>
+                <li><a href="#" aria-current="page" aria-label="Nossa solução">Solução</a></li>
+                <li><a href="../pages/faq.html" aria-label="Perguntas frequentes">Perguntas Frequentes</a></li>
+                <li><a href="../pages/contato.html" aria-label="Página de contato">Contato</a></li>
+                <li><a href="../pages/integrantes.html" aria-label="Nossos integrantes">Integrantes</a></li>
+            </ul>
+        </nav>
+
+         <!-- Container para guarda os doi icones de abre e fecha o menu, só vão aparecer na tela tamamho mobile -->
+         <div id="container_icone_menu">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-times"></i>
+        </div>
+    </header>
+
+    <main aria-label="Conteúdo principal da solução Hidrata Alerta">
+      <h1>Hidrata Alerta - Solução</h1>
+
+      <section id="sec01" aria-label="Informações climáticas em tempo real">
+            <div id="weather_container">
+                <div id="temp_box">
+                    <div id="temp_value">
+                        <p class="temp_numb"></p>
+                        <div class="temp-unit">
+                            <p class="unit_dot">°</p><span id="celcius">C</span>
+                        </div>
+                    </div>
+                    
+                    <i id="weather-icon" class="fas fa-cloud-sun"></i> 
+                </div>
+
+                <div id="city_box">
+                    <p class="city"></p>
+                    <p class="state">SP</p>
+                </div>
+            
+            </div>
+        
+               <div id="time_container">
+                   <div id="relogio"></div>
+                   <div id="dia_semana">Quarta</div>
+              </div>
+
+        </section>
+
+        <h2 id="recomendacao">Recomendações</h2>
+
+        <section id="sec02" aria-label="Recomendações personalizadas de hidratação">
+            <div class="mensagem mensagem_texto_01">
+                <div class="div_01">
+                    <div class="mensagem_texto ">
+                        <p> A temperatura está aumentando. <span class="span_red">Importante:</span> 
+                           não esqueça de se hidratar. </p>
+                          <p>Recomendamos <span class="span_strong">
+                               pelo menos dois litros de água</span> ao dia.
+                           </p> 
+                       </div>
+                       <img src="../img/solucao/garrafa-agua.gif" alt="Gif animado mostrando uma garrafa de água sendo 
+                       esvaziada para representar a importância da hidratação">
+                </div>
+
+                <div class="div_02">
+                    <div class="div_02_box">
+                        <img src="../img/solucao/sun.svg" alt="Uma imagem de sol.">
+                        
+                        <p class="text_div_02"><span class="strong_span">Evite exposição direta ao sol: </span>Procure sombras ou ambientes fechados, especialmente entre as 10h e 16h,
+                             quando a intensidade do sol é maior.</p>
+                    </div>
+
+                    <div class="div_02_box">
+                        <p class="text_div_02"><span class="strong_span">Evite atividades físicas intensas ao ar livre: </span>
+                            Se necessário, faça exercícios nas horas 
+                            mais frescas, como manhã cedo ou no fim da tarde.</p>
+                  
+                        <img src="../img/solucao/jogging.gif" alt="Gif de mulher correndo.">
+                    </div>
+                </div>
+               
+            </div>
+
+            <div class="mensagem mensagem_texto_02">
+                <div class="div_01">
+                    <div class="mensagem_texto">
+                        <p> Apesar de não estar quente, não esqueça de se hidratar.</p> 
+                       <p><span class="span_red">Recomendamos</span> <span class="span_strong">dois litros de água</span> ao dia.</p> 
+                    </div>
+                    <img src="../img/solucao/garrafa-agua.gif" alt="Gif animado mostrando uma garrafa de água 
+                    sendo esvaziada para representar a importância da hidratação">
+                </div>
+
+                <div class="div_02">
+                    <div class="div_02_box">
+                        <img src="../img/solucao/coldwind.gif" alt="Gif de mulher enrolada em um cachecol.">
+                        
+                        <p class="text_div_02"><span class="strong_span">Proteja-se contra o vento e a umidade: </span>Essas condições podem aumentar a sensação de frio. 
+                            Use roupas que ajudem a bloquear o vento e mantenha-se seco.</p>
+                    </div>
+
+                    <div class="div_02_box">
+                        <p class="text_div_02"><span class="strong_span">Cuidados especiais para idosos e crianças: </span>
+                            Essas pessoas podem ser mais sensíveis ao frio, então esteja atento e garanta que estejam bem aquecidas.</p>
+                  
+                        <img src="../img/solucao/idosos.svg" alt="Desenho de tres pessoas sendo uma delas idoso.">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Hidrata Alerta. Todos os direitos reservados.</p>
+    </footer>
+
+  
+</body>
+</html>
